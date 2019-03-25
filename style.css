@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+.header {
+    background: url(img/first-bg.jpg) no-repeat center top / cover;
+    height: 100vh;
+}
+ul {
+    display: flex;
+    float: right;
+    margin: 0px;
+}
+li {
+    margin-top: 30px;
+    margin-right: 90px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo {
+    margin-left: 300px;
+    margin-top: 30px;
+}
+h1, h2 {
+    text-align: center;
+    color: white;
+    font-size: 56px;
+}
+h2 {
+    font-size:76px;
+    margin-top: 20px;
+}
+.text {
+    margin-top: 200px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: orange;
+    border-color: orange;
+    box-shadow: 15 10 15 grey;
+    border: 10px;
+    height: 50px;
+    width: 250px;
+    font-size: 26px;
+}
+
