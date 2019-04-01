@@ -1,10 +1,7 @@
-var  a = prompt("What's your name?", " ");
-if (a == "roma") {
-    alert("tu dodik");
+var  a = prompt('What"s your name?', ' ');
+if (a!== null) {
+    alert('Welcome '+ a);
 }
-else if(a == null) {
-        alert("error");
-    }
-else if (a!==null || a!=="roma"){
-        alert("Welcome");
-    }
+else {
+        alert('error');
+}
