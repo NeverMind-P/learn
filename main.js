@@ -4,5 +4,5 @@ if (userName === null) {
     document.body.innerHTML = "";
 }
 else {
-    alert('Welcome '+userName);
+    alert('Welcome ' + userName);
 }

@@ -132,7 +132,7 @@ img[src^="img/img"] {
 }
 .block2 {
     position: relative;
-    left:24%;
+    left:23%;
     display: flex;
     max-width: 500px;
 }
